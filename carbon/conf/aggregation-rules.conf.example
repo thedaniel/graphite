@@ -20,7 +20,7 @@
 # As an example, if the following metrics are received:
 #
 #   prod.applications.apache.www01.requests
-#   prod.applications.apache.www01.requests
+#   prod.applications.apache.www02.requests
 #
 # They would all go into the same aggregation buffer and after 60 seconds the
 # aggregate metric 'prod.applications.apache.all.requests' would be calculated
